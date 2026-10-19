@@ -1,0 +1,28 @@
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+dist/
+
+# Uploaded documents and local vector database
+backend/uploads/
+backend/chroma_db/
+backend/chroma/
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
